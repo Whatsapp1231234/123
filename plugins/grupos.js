@@ -31,21 +31,6 @@ let str = `╭「➻❥Ванилька➻❥」
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥*Grupos y cuentas*➻❥」
 │➯Ванилька
-│➯https://chat.whatsapp.com/BgyxmpSY2VYE3MT0UbLAgf
-│➯Ванилька
-│➯https://chat.whatsapp.com/DpRVuXpKRF43iMOEtg85wz
-│➯𝙷𝙰𝚃𝚂𝚄𝙽𝙴-𝙼𝙸𝙺𝚄-𝚄𝙻𝚃𝚁𝙰
-│➯https://chat.whatsapp.com/BuloWd29LSnDZHXtUJDybF
-│➯𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
-│➯https://www.facebook.com/groups/987464505464904/?ref=share
-│➯𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚈𝚘𝚞𝚃𝚞𝚋𝚎
-│➯https://youtube.com/@hades_bot2391
-│➯𝚌𝚊𝚗𝚊𝚕 𝚍𝚎 𝚍𝚒𝚜𝚌𝚘𝚛𝚍 
-│➯https://discord.gg/nQVWW6xv
-│➯INSTAGRAM
-│➯https://instagram.com/ofc.yovani.bot?igshid=ZDc4ODBmNjlmNQ==
-│➯KIKTOK
-│➯https://vm.tiktok.com/ZM2rbFWnr/
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})
